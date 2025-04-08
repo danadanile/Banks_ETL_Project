@@ -14,4 +14,4 @@ It performs a full ETL (Extract, Transform, Load) process:
 
 ## Run code:
 ```bash
-python etl_banks.py
+python Banks_Project.py
