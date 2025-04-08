@@ -1,0 +1,16 @@
+2025-04-07-22:51:33: Preliminaries complete. Initiating ETL process.
+2025-04-07-22:51:33: Starting data extraction.
+2025-04-07-22:51:35: Data extraction complete. Initiating Transformation process.
+2025-04-07-22:51:35: Starting data transformation.
+2025-04-07-22:51:36: Data transformation complete. Initiating Loading process.
+2025-04-07-22:51:36: Saving data to CSV.
+2025-04-07-22:51:36: Data saved to CSV file.
+2025-04-07-22:51:36: Saving data to Database.
+2025-04-07-22:51:36: Data loaded to Database as a table, Executing queries.
+2025-04-07-22:51:36: Executing Query: SELECT * FROM Largest_banks
+2025-04-07-22:51:36: Query execution completed
+2025-04-07-22:51:36: Executing Query: SELECT AVG(MC_GBP_Billion) FROM Largest_banks
+2025-04-07-22:51:36: Query execution completed
+2025-04-07-22:51:36: Executing Query: SELECT Name FROM Largest_banks LIMIT 5
+2025-04-07-22:51:36: Query execution completed
+2025-04-07-22:51:36: Server Connection closed. Process Complete.
